@@ -1,0 +1,28 @@
+body {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  user-select: none;
+  background-color: aliceblue;
+}
+
+#images {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#images img {
+  width: 40%;
+  cursor: pointer;
+}
+#streak {
+  text-align: center;
+}
+
+
